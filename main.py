@@ -6,3 +6,7 @@ strings.append('e') # push() which adds data to the end of the list/array --> O(
 print(strings)
 strings.pop() # remove item from the end of the array --> O(1)
 print(strings)
+
+strings.insert(0,'x') # add items to the beginning of the list/ array
+
+print(strings)
